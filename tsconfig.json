@@ -3,9 +3,10 @@
     "compilerOptions": {
       "module": "commonjs",
       "target": "ES2016",
-      "sourceMap": true
+      "sourceMap": true,
+      "outDir" : "dist"
     },
     //어떤 파일들이 컴파일 과정에 포함되는지 알려줌 
-    "include": ["index.ts"],
+    "include": ["src/**/*"],
     "exclude": ["node_modules"]
   }
