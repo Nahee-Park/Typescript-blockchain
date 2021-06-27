@@ -1,0 +1,11 @@
+{
+    //   node.js를 평범하게 사용하고 다양한 걸 import export 할 수 있게 만드는 것 
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "ES2016",
+      "sourceMap": true
+    },
+    //어떤 파일들이 컴파일 과정에 포함되는지 알려줌 
+    "include": ["index.ts"],
+    "exclude": ["node_modules"]
+  }

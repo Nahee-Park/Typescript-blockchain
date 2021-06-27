@@ -1,0 +1,15 @@
+{
+  "name": "Typescript-blockchain",
+  "version": "1.0.0",
+  "decription" : "Learning Typescript by making a Blockchain with it",
+  "main": "index.js",
+  "author": "nahee-park <jessica396@ewhain.net>",
+  "repository": "https://github.com/Nahee-Park/Typescript-blockchain",
+  "license": "MIT",  
+  "scripts":{
+    // yarn start 할 때 index.js 실행되도록 
+    "start":"node index.js",
+    "prestart": "tsc"
+  }
+}
+
